@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f4fd, #d9e9f5);
+  color: #333;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+form input[type="submit"] {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background: #357abd;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  font-size: 1rem;
+}
+
+.list-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 1rem;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.list-item button:hover {
+  color: #4a90e2;
+}
+
+#clear-btn {
+  display: block;
+  margin: 20px auto 0;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#clear-btn:hover {
+  background: #e05548;
+}

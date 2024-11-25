@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="grocery-list container">
+            <h2>Grocery Bud</h2>
+            <form id="grocery-form">
+                <div>
+                    <label for="grocery-item">Enter a grocery item to add:</label>
+                    <input id="grocery-item" type="text" name="text" required />
+                </div>
+                <div>
+                    <input type="submit" value="Add Item" />
+                </div>
+            </form>
+            <div class="list" id="grocery-list">
+                <!-- Items will appear here -->
+            </div>
+            <button type="button" id="clear-btn">Clear Items</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/d2acc9c477.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
